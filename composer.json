@@ -1,0 +1,30 @@
+{
+    "name": "MuhBayu/laravel-firebase-cloud-messaging",
+    "description": "Package Firebase Cloud Messaging for Laravel/Lumen",
+    "keywords": ["laravel", "lumen", "firebase", "notification", "push", "fcm", "firebase cloud messaging"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "MuhBayu",
+            "email": "bnugraha00@hotmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^5.6",
+        "illuminate/support": "5.*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "MuhBayu\\Fcm\\" : "src/"
+        },
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuhBayu\\Fcm\\FcmServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
