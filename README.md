@@ -31,7 +31,10 @@ FCM_LEGACY_KEY=<your_server_Key>
 FCM_SENDER_ID=<your_sender_id>
 ```
 ## Basic Usage
-
+The following use statements are required for the examples below:
+```php
+use MuhBayu\Fcm;
+```
 #### Sending Push Notification
 ```php
 // if you want to send multiple $recipients token must an array 
