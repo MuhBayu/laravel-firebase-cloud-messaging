@@ -1,5 +1,5 @@
 {
-    "name": "MuhBayu/laravel-firebase-cloud-messaging",
+    "name": "muhbayu/laravel-firebase-cloud-messaging",
     "description": "Package Firebase Cloud Messaging for Laravel/Lumen",
     "keywords": ["laravel", "lumen", "firebase", "notification", "push", "fcm", "firebase cloud messaging"],
     "type": "library",
